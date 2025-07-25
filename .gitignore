@@ -1,0 +1,47 @@
+# ====================
+# PYTHON & ENV FILES
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.env
+.env
+
+# ================
+# JUPYTER STUFF
+# ================
+.ipynb_checkpoints/
+
+# ====================
+# OUTPUT / GENERATED
+# ====================
+output/
+checkpoints/
+*.log
+*.tmp
+
+# =====================
+# MODEL FILES
+# =====================
+# Exclude large pretrained weights (tracked with LFS or downloaded at runtime)
+*.weights
+*.h5
+*.onnx
+
+# But KEEP small essential model
+!model.pth
+
+# ================
+# SYSTEM/IDE FILES
+# ================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =================
+# SOUND/VIDEO (if applicable)
+# =================
+*.wav
+*.mp3
+*.mp4
