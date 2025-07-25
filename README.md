@@ -83,10 +83,3 @@ Drowning-Detection/
 
 If you're interested in improving this system, feel free to fork the repo and submit a pull request. For major changes, open an issue first to discuss the proposal.
 
-## License
-
-This project is licensed under the MIT License.
-
-## Maintainers
-
-* [@Samaspp](https://github.com/Samaspp)
